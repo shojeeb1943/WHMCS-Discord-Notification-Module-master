@@ -1,4 +1,4 @@
-# WHMCS Discord Notifications Module
+# Bytesis WHMCS Discord Notifications Module
 
 This module integrates WHMCS with Discord by sending notifications through Discord webhooks. Whenever an event in WHMCS meets the specified criteria, a notification is pushed to a Discord channel. This is particularly useful for keeping your team or community up to date with your WHMCS instance without having to check it directly.
 
@@ -10,10 +10,11 @@ This module integrates WHMCS with Discord by sending notifications through Disco
 - Uses Discord Webhooks for efficient and easy integration
 
 ## Author
-- William Beacroft ([billyab.co.uk](https://billyab.co.uk))
+- Bytesis ([bytesis.com](https://bytesis.com))
+- Based on the original module by William Beacroft ([billyab.co.uk](https://billyab.co.uk))
 
 ## Installation
-1. Download the module via the following [link](https://github.com/BillyAB/WHMCS-Discord-Notification-Module/releases/latest).
+1. Download the module from the Bytesis releases page.
 2. Upload the `modules` folder to the root of your WHMCS installation folder.
 3. The `Discord.php` and `lib` folder should be in the following directory `whmcs/modules/notifications/Discord`.
 4. Go to the WHMCS admin panel, navigate to "Setup" -> "Notifications".

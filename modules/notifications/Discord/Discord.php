@@ -4,8 +4,8 @@
  * Copyright (c) William Beacroft 2023.                                       *
  *                                                                            *
  * @project WHMCS Discord Notifications                                       *
- * @author William Beacroft                                                   *
- * @site https://billyab.co.uk                                                *
+ * @author Bytesis (original module by William Beacroft)                      *
+ * @site Bytesis                                                              *
  *                                                                            *
  ******************************************************************************/
 
@@ -173,7 +173,7 @@ class Discord implements NotificationModuleInterface
             ->description($cut($messageBody, 4096))
             ->timestamp(date(\DateTime::ATOM))
             ->color($discordColor)
-            ->footer("WHMCS Discord module by BillyAB");
+            ->footer("WHMCS Discord module by Bytesis");
         $total = mb_strlen($embed->title) + mb_strlen($embed->description) + 40; // +footer
         $count = 0;
         foreach ($notification->getAttributes() as $attribute) {

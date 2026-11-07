@@ -17,12 +17,12 @@
     "filename": "logo.png"
   },
   "support": {
-    "homepage": "https:\/\/github.com\/BillyAB\/WHMCS-Discord-Notification-Module"
+    "homepage": "https:\/\/bytesis.com"
   },
   "authors": [
     {
-      "name": "William Beacroft",
-      "homepage": "https:\/\/billyab.co.uk\/"
+      "name": "Bytesis",
+      "homepage": "https:\/\/bytesis.com"
     }
   ]
 }

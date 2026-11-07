@@ -4,8 +4,8 @@
  * Copyright (c) William Beacroft 2023.                                       *
  *                                                                            *
  * @project WHMCS Discord Notifications                                       *
- * @author William Beacroft                                                   *
- * @site https://billyab.co.uk                                                *
+ * @author Bytesis (original module by William Beacroft)                      *
+ * @site Bytesis                                                              *
  *                                                                            *
  ******************************************************************************/
 
